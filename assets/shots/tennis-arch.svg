@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, Segoe UI, system-ui, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7a786f"/></marker>
+  <style>.box{fill:#fff;stroke:#d9d5ca;stroke-width:1.5}.t{font-size:22px;font-weight:600;fill:#1b1b19}.s{font-size:16px;fill:#66655f}.h{font-size:15px;font-weight:700;fill:#2d6a4f;letter-spacing:.12em}.side{fill:#e4f1e9;stroke:#2d6a4f;stroke-width:1.5}.dk{fill:#2d6a4f}.w{font-size:20px;font-weight:600;fill:#fff}.ln{stroke:#7a786f;stroke-width:2;fill:none;marker-end:url(#a)}.dash{stroke:#7a786f;stroke-width:1.5;fill:none;stroke-dasharray:5 6;marker-end:url(#a)}</style></defs>
+  <rect width="1280" height="800" fill="#faf9f6"/>
+  <text x="64" y="80" font-size="34" font-weight="700" fill="#1b1b19">Club app — rules live in the database</text>
+  <text x="64" y="114" class="s">Every table has row-level security; roles and eligibility are enforced in Postgres, not just the UI.</text>
+  <text x="64" y="180" class="h">MEMBERS (PWA)</text>
+  <rect class="box" x="64" y="200" width="320" height="400" rx="12"/>
+  <text x="88" y="244" class="t">React + TypeScript</text>
+  <text x="88" y="284" class="s">Club-night booking</text><text x="88" y="312" class="s">News &amp; comments</text><text x="88" y="340" class="s">Friendly results</text><text x="88" y="368" class="s">Championship bracket</text><text x="88" y="396" class="s">Real-time chat</text><text x="88" y="424" class="s">League teams &amp; fixtures</text><text x="88" y="452" class="s">Admin: approvals, roles</text>
+  <text x="88" y="500" class="s">Installable, push notifications</text>
+  <text x="88" y="560" class="s">Public, login-free summer</text><text x="88" y="584" class="s">tournament area</text>
+  <text x="440" y="180" class="h">SUPABASE</text>
+  <rect class="side" x="440" y="200" width="400" height="190" rx="12"/>
+  <text x="464" y="244" class="t">Postgres + RLS</text><text x="464" y="276" class="s">member / committee / admin roles</text><text x="464" y="302" class="s">sign-up trigger → pending member</text><text x="464" y="328" class="s">admin actions only via RPCs</text><text x="464" y="354" class="s">~27 tables · ~77 policies</text>
+  <rect class="side" x="440" y="410" width="400" height="190" rx="12"/>
+  <text x="464" y="454" class="t">Booking engine (RPCs)</text><text x="464" y="486" class="s">book → booked or waitlisted</text><text x="464" y="512" class="s">cancel → next in line promoted</text><text x="464" y="538" class="s">eligibility checked in SQL</text><text x="464" y="564" class="s">sessions generated nightly (pg_cron)</text>
+  <text x="896" y="180" class="h">EDGES</text>
+  <rect class="box" x="896" y="200" width="320" height="120" rx="12"/><text x="920" y="244" class="t">Realtime</text><text x="920" y="276" class="s">chat channels, reactions</text>
+  <rect class="box" x="896" y="340" width="320" height="120" rx="12"/><text x="920" y="384" class="t">Push (edge function)</text><text x="920" y="416" class="s">VAPID signing hand-rolled</text>
+  <rect class="box" x="896" y="480" width="320" height="120" rx="12"/><text x="920" y="524" class="t">Vercel</text><text x="920" y="556" class="s">hosting + daily keep-alive cron</text>
+  <path class="ln" d="M384 300 H440"/><path class="ln" d="M384 500 H440"/><path class="ln" d="M840 260 H896"/><path class="ln" d="M840 400 H896"/>
+  <text x="64" y="680" class="s">Built one phase at a time: schema first, RLS from day one, then the UI.</text>
+</svg>

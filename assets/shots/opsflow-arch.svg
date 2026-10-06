@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, Segoe UI, system-ui, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7a786f"/></marker>
+    <style>
+      .box{fill:#fff;stroke:#d9d5ca;stroke-width:1.5}
+      .hl{fill:#e4f1e9;stroke:#2d6a4f;stroke-width:2}
+      .t{font-size:22px;font-weight:600;fill:#1b1b19}
+      .s{font-size:16px;fill:#66655f}
+      .h{font-size:15px;font-weight:700;fill:#2d6a4f;letter-spacing:.12em}
+      .ln{stroke:#7a786f;stroke-width:2;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1280" height="800" fill="#faf9f6"/>
+  <text x="64" y="80" font-size="34" font-weight="700" fill="#1b1b19">OpsFlow — how it fits together</text>
+  <text x="64" y="114" class="s">An operational layer beside the ERP: sync in, enrich, and run the warehouse from one system of record.</text>
+
+  <text x="64" y="176" class="h">SOURCES</text>
+  <rect class="box" x="64" y="194" width="300" height="86" rx="12"/><text x="88" y="232" class="t">ERP (Unleashed)</text><text x="88" y="260" class="s">products, stock, orders</text>
+  <rect class="box" x="64" y="300" width="300" height="86" rx="12"/><text x="88" y="338" class="t">Carriers &amp; 3PLs</text><text x="88" y="366" class="s">UPS, DHL, freight, tracking</text>
+  <rect class="box" x="64" y="406" width="300" height="86" rx="12"/><text x="88" y="444" class="t">Marketplaces</text><text x="88" y="472" class="s">vendor orders, ASNs</text>
+  <rect class="box" x="64" y="512" width="300" height="86" rx="12"/><text x="88" y="550" class="t">Finance &amp; docs</text><text x="88" y="578" class="s">accounting, SharePoint, email</text>
+
+  <text x="470" y="176" class="h">PLATFORM</text>
+  <rect class="hl" x="470" y="194" width="340" height="110" rx="12"/><text x="494" y="236" class="t">Sync orchestrator</text><text x="494" y="264" class="s">master → transactions, incremental,</text><text x="494" y="286" class="s">one worker per lane</text>
+  <rect class="hl" x="470" y="324" width="340" height="110" rx="12"/><text x="494" y="366" class="t">API (FastAPI)</text><text x="494" y="394" class="s">~150 routers · auth, 2FA, SSO</text><text x="494" y="416" class="s">per-tenant module manifest</text>
+  <rect class="hl" x="470" y="454" width="340" height="144" rx="12"/><text x="494" y="496" class="t">PostgreSQL</text><text x="494" y="524" class="s">control plane (users, tenants)</text><text x="494" y="548" class="s">+ one database per tenant</text><text x="494" y="572" class="s">UK · EU</text>
+
+  <text x="916" y="176" class="h">USED FOR</text>
+  <rect class="box" x="916" y="194" width="300" height="86" rx="12"/><text x="940" y="232" class="t">Warehouse</text><text x="940" y="260" class="s">picking, despatch, counts</text>
+  <rect class="box" x="916" y="300" width="300" height="86" rx="12"/><text x="940" y="338" class="t">Logistics</text><text x="940" y="366" class="s">bookings, invoice matching</text>
+  <rect class="box" x="916" y="406" width="300" height="86" rx="12"/><text x="940" y="444" class="t">Finance</text><text x="940" y="472" class="s">margin, cost-to-serve, P&amp;L</text>
+  <rect class="box" x="916" y="512" width="300" height="86" rx="12"/><text x="940" y="550" class="t">Sales</text><text x="940" y="578" class="s">forecasts, CRM, sell-out</text>
+
+  <path class="ln" d="M364 237 H 470"/>
+  <path class="ln" d="M364 343 C 420 343 420 379 470 379"/>
+  <path class="ln" d="M364 449 C 420 449 420 400 470 400"/>
+  <path class="ln" d="M364 555 C 420 555 420 415 470 415"/>
+  <path class="ln" d="M640 304 V 324"/>
+  <path class="ln" d="M640 434 V 454"/>
+  <path class="ln" d="M810 379 C 860 379 860 237 916 237"/>
+  <path class="ln" d="M810 379 C 860 379 860 343 916 343"/>
+  <path class="ln" d="M810 379 C 860 379 860 449 916 449"/>
+  <path class="ln" d="M810 379 C 860 379 860 555 916 555"/>
+
+  <rect x="64" y="652" width="1152" height="88" rx="12" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <text x="96" y="690" font-size="30" font-weight="700" fill="#2d6a4f">~490</text><text x="96" y="716" class="s">tables</text>
+  <text x="330" y="690" font-size="30" font-weight="700" fill="#2d6a4f">~210</text><text x="330" y="716" class="s">frontend pages</text>
+  <text x="564" y="690" font-size="30" font-weight="700" fill="#2d6a4f">10+</text><text x="564" y="716" class="s">integrations</text>
+  <text x="798" y="690" font-size="30" font-weight="700" fill="#2d6a4f">680</text><text x="798" y="716" class="s">migrations</text>
+  <text x="1012" y="690" font-size="30" font-weight="700" fill="#2d6a4f">2</text><text x="1012" y="716" class="s">live tenants</text>
+</svg>

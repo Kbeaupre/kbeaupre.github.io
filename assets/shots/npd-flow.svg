@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, Segoe UI, system-ui, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7a786f"/></marker>
+    <style>
+      .stage{fill:#fff;stroke:#d9d5ca;stroke-width:1.5}
+      .gate{fill:#2d6a4f}
+      .t{font-size:22px;font-weight:600;fill:#1b1b19}
+      .s{font-size:16px;fill:#66655f}
+      .g{font-size:14px;font-weight:700;fill:#fff}
+      .h{font-size:15px;font-weight:700;fill:#2d6a4f;letter-spacing:.12em}
+      .ln{stroke:#7a786f;stroke-width:2;fill:none;marker-end:url(#a)}
+      .dash{stroke:#7a786f;stroke-width:1.5;fill:none;stroke-dasharray:5 6;marker-end:url(#a)}
+      .side{fill:#e4f1e9;stroke:#2d6a4f;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1280" height="800" fill="#faf9f6"/>
+  <text x="64" y="80" font-size="34" font-weight="700" fill="#1b1b19">NPD stage-gate — idea to launch</text>
+  <text x="64" y="114" class="s">Each stage is a templated set of tasks; a gate only opens when its data and sign-offs are in.</text>
+
+  <text x="64" y="190" class="h">STAGES</text>
+  <rect class="stage" x="64" y="210" width="180" height="120" rx="12"/><text x="86" y="252" class="t">Idea</text><text x="86" y="280" class="s">intake &amp;</text><text x="86" y="302" class="s">triage</text>
+  <rect class="stage" x="306" y="210" width="180" height="120" rx="12"/><text x="328" y="252" class="t">Concept</text><text x="328" y="280" class="s">brief, route</text><text x="328" y="302" class="s">questions</text>
+  <rect class="stage" x="548" y="210" width="180" height="120" rx="12"/><text x="570" y="252" class="t">Costing</text><text x="570" y="280" class="s">quotes per</text><text x="570" y="302" class="s">factory</text>
+  <rect class="stage" x="790" y="210" width="180" height="120" rx="12"/><text x="812" y="252" class="t">Develop</text><text x="812" y="280" class="s">samples, QC,</text><text x="812" y="302" class="s">packaging</text>
+  <rect class="stage" x="1032" y="210" width="184" height="120" rx="12"/><text x="1054" y="252" class="t">Launch</text><text x="1054" y="280" class="s">SKU live,</text><text x="1054" y="302" class="s">stock in</text>
+
+  <g><rect class="gate" x="254" y="252" width="42" height="36" rx="8"/><text x="263" y="276" class="g">G1</text></g>
+  <g><rect class="gate" x="496" y="252" width="42" height="36" rx="8"/><text x="505" y="276" class="g">G2</text></g>
+  <g><rect class="gate" x="738" y="252" width="42" height="36" rx="8"/><text x="747" y="276" class="g">G3</text></g>
+  <g><rect class="gate" x="980" y="252" width="42" height="36" rx="8"/><text x="989" y="276" class="g">G4</text></g>
+
+  <text x="64" y="410" class="h">LIVE TIMELINE</text>
+  <rect x="64" y="428" width="1152" height="120" rx="12" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="96" y="452" width="200" height="22" rx="6" fill="#2d6a4f"/>
+  <rect x="300" y="452" width="260" height="22" rx="6" fill="#2d6a4f" opacity=".75"/>
+  <rect x="560" y="484" width="320" height="22" rx="6" fill="#2d6a4f" opacity=".55"/>
+  <rect x="880" y="484" width="300" height="22" rx="6" fill="#2d6a4f" opacity=".35"/>
+  <line x1="640" y1="440" x2="640" y2="536" stroke="#c0392b" stroke-width="2"/><text x="648" y="532" font-size="14" fill="#c0392b">today</text>
+  <text x="96" y="532" class="s">Forward-scheduled from the start date · reflows as tasks complete</text>
+
+  <text x="64" y="620" class="h">FEEDS THE GATES</text>
+  <rect class="side" x="64" y="640" width="360" height="100" rx="12"/><text x="88" y="680" class="t">Landed cost</text><text x="88" y="708" class="s">QC % · freight · duty · ECB FX</text>
+  <rect class="side" x="460" y="640" width="360" height="100" rx="12"/><text x="484" y="680" class="t">ERP data</text><text x="484" y="708" class="s">SKU, BoM, stock — “unknown”, never a guess</text>
+  <rect class="side" x="856" y="640" width="360" height="100" rx="12"/><text x="880" y="680" class="t">Reminders</text><text x="880" y="708" class="s">in-app, email, overdue escalation</text>
+
+  <path class="dash" d="M244 640 V 600 C 244 580 638 580 638 560 V 340"/>
+  <path class="dash" d="M640 640 V 600 C 640 590 1001 590 1001 560 V 300"/>
+</svg>

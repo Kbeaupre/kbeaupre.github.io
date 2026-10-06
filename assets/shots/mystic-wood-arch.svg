@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, Segoe UI, system-ui, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7a786f"/></marker>
+  <style>.box{fill:#fff;stroke:#d9d5ca;stroke-width:1.5}.t{font-size:22px;font-weight:600;fill:#1b1b19}.s{font-size:16px;fill:#66655f}.h{font-size:15px;font-weight:700;fill:#2d6a4f;letter-spacing:.12em}.side{fill:#e4f1e9;stroke:#2d6a4f;stroke-width:1.5}.ln{stroke:#7a786f;stroke-width:2;fill:none;marker-end:url(#a)}.lbl{font-size:14px;fill:#66655f}</style></defs>
+  <rect width="1280" height="800" fill="#faf9f6"/>
+  <text x="64" y="80" font-size="34" font-weight="700" fill="#1b1b19">Mystic Wood — a pure rules reducer</text>
+  <text x="64" y="114" class="s">The UI rolls the dice and sends actions; the reducer decides everything else.</text>
+  <text x="64" y="170" class="h">THE BOARD</text>
+  <rect x="64" y="190" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="190" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="190" width="66" height="44" rx="6" fill="#2d6a4f" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="190" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="190" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="242" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="242" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="242" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="242" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="242" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="294" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="294" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="294" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="294" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="294" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="346" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="346" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="346" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="346" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="346" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="398" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="398" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="398" width="66" height="44" rx="6" fill="#e4f1e9" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="398" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="398" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="450" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="450" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="450" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="450" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="450" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="502" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="502" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="502" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="502" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="502" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="554" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="554" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="554" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="554" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="554" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="64" y="606" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="138" y="606" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="212" y="606" width="66" height="44" rx="6" fill="#2d6a4f" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="286" y="606" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <rect x="360" y="606" width="66" height="44" rx="6" fill="#fff" stroke="#d9d5ca" stroke-width="1.5"/>
+  <text x="446" y="214" class="s">Celestial Gate</text><text x="446" y="396" class="s">Tower</text><text x="446" y="630" class="s">Earthly Gate</text>
+  <text x="640" y="170" class="h">UI (REACT)</text>
+  <rect class="box" x="640" y="190" width="576" height="100" rx="12"/><text x="664" y="228" class="t">Rolls the dice, dispatches actions</text><text x="664" y="258" class="s">Modals for encounters, jousts, the Tower, fountain, power limit</text>
+  <text x="640" y="330" class="h">REDUCER (PURE)</text>
+  <rect class="side" x="640" y="350" width="576" height="130" rx="12"/><text x="664" y="388" class="t">gameReducer(state, action) → state</text><text x="664" y="418" class="s">Never rolls dice and never reads the clock: dice arrive in the action,</text><text x="664" y="442" class="s">so every turn is deterministic and replayable under test.</text>
+  <text x="640" y="520" class="h">JOUST, AS EXPLICIT STEPS</text>
+  <rect class="box" x="640" y="540" width="130" height="64" rx="12"/><text x="660" y="578" class="s" font-size="15">start</text>
+  <rect class="box" x="800" y="540" width="130" height="64" rx="12"/><text x="822" y="578" class="s" font-size="15">roll</text>
+  <rect class="box" x="960" y="540" width="130" height="64" rx="12"/><text x="982" y="578" class="s" font-size="15">prize</text>
+  <rect class="box" x="1120" y="540" width="96" height="64" rx="12"/><text x="1136" y="578" class="s" font-size="15">finish</text>
+  <path class="ln" d="M770 572 H800"/><path class="ln" d="M930 572 H960"/><path class="ln" d="M1090 572 H1120"/>
+  <text x="640" y="650" class="s">Prizes: imprison, take a card, or win a companion.</text>
+  <text x="640" y="676" class="s">Winning can push a knight over the power limit.</text>
+  <path class="ln" d="M928 290 V350"/><path class="ln" d="M928 480 V540"/>
+  <rect class="side" x="640" y="708" width="576" height="52" rx="12"/><text x="664" y="740" class="t" font-size="20">129 tests across 10 files</text>
+</svg>
